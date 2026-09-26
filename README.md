@@ -36,6 +36,12 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/vpc/docs/shared-vpc
 - https://cloud.google.com/vpc/docs/provisioning-shared-vpc
 - https://cloud.google.com/vpc/docs/deprovisioning-shared-vpc
+- https://docs.cloud.google.com/vpc/docs/about-peering-connections
+- https://docs.cloud.google.com/vpc/docs/using-vpc-peering
+- https://docs.cloud.google.com/vpc/docs/peer-two-networks
+- https://docs.cloud.google.com/vpc/docs/private-service-connect
+- https://docs.cloud.google.com/vpc/docs/private-service-connect-compatibility
+- https://docs.cloud.google.com/vpc/docs/private-service-connect-deployments
 
 ### Multi-project monitoring and logging
 
