@@ -48,10 +48,17 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/monitoring/docs/quickstart
 - https://cloud.google.com/logging/docs/quickstart-sdk
 - https://cloud.google.com/error-reporting/docs/quickstart
-- https://cloud.google.com/debugger/docs/quickstart
 - https://cloud.google.com/trace/docs/quickstart
 - https://cloud.google.com/profiler/docs/quickstart
 - https://cloud.google.com/stackdriver/docs
+- https://docs.cloud.google.com/monitoring/settings
+- https://docs.cloud.google.com/monitoring/settings/metrics-scope-app-enabled-folders
+- https://docs.cloud.google.com/monitoring/settings/multiple-projects
+- https://docs.cloud.google.com/monitoring/settings/manage-api
+- https://docs.cloud.google.com/logging/docs/export/aggregated_sinks_overview
+- https://docs.cloud.google.com/logging/docs/export/aggregated_sinks
+- https://docs.cloud.google.com/logging/docs/central-log-storage
+- https://docs.cloud.google.com/logging/docs/routing/copy-logs
 
 ### Identity and Access Management (IAM) roles and organization-level policies
 
@@ -91,12 +98,24 @@ General information for Google Cloud certification is available at [https://clou
 
 - https://cloud.google.com/resource-manager/docs/organization-policy/defining-locations
 - https://cloud.google.com/resource-manager/docs/organization-policy/defining-locations-supported-services
+- https://cloud.google.com/terms/data-residency
+- https://docs.cloud.google.com/assured-workloads/docs/data-residency
+- [https://cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources](https://cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources) 
 
 
 ## 1.2 Managing infrastructure
 
 ### Infrastructure-as-code tooling and managed services (Infrastructure Manager, Cloud Foundation Toolkit, Config Connector, GitOps, Terraform, Helm)
 
+- https://docs.cloud.google.com/infrastructure-manager/docs/overview
+- https://docs.cloud.google.com/infrastructure-manager/docs/deploy-vpc-with-terraform 
+- https://docs.cloud.google.com/infrastructure-manager/docs/infra-manager-terraform
+- https://docs.cloud.google.com/infrastructure-manager/docs/deployments-revisions
+- https://docs.cloud.google.com/infrastructure-manager/docs/annotations
+- https://docs.cloud.google.com/infrastructure-manager/docs/terraform-version-deprecation
+- https://docs.cloud.google.com/infrastructure-manager/docs/state-file
+- https://docs.cloud.google.com/infrastructure-manager/docs/automate-git
+- https://docs.cloud.google.com/infrastructure-manager/docs/troubleshoot-deployments
 - https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints
 - https://cloud.google.com/deployment-manager/docs/reference/cloud-foundation-toolkit
 - https://cloud.google.com/deployment-manager/docs/step-by-step-guide
@@ -106,6 +125,24 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/config-connector/docs/how-to/install-upgrade-uninstall
 - https://cloud.google.com/config-connector/docs/how-to/configuring-your-client
 - https://cloud.google.com/config-connector/docs/how-to/getting-started
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/overview
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/tutorials/config-sync-multi-repo
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/concepts/cluster-requirements
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/how-to/grant-access-git
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/how-to/grant-access-helm-oci
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/how-to/install-default
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/concepts/sources-of-truth
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/concepts/gitops-best-practices
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/concepts/configs
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/tutorials/safe-rollouts-with-config-sync
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/how-to/sync-helm-charts-from-artifact-registry
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/concepts/kustomize
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/tutorials/config-sync-helm
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/tutorials/multiple-environments-config-sync
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/how-to/troubleshooting-config-sync
+- https://docs.cloud.google.com/kubernetes-engine/config-sync/docs/concepts/architecture
+- https://helm.sh/docs/intro/introduction
+- https://helm.sh/docs/glossary
 
 ### Making infrastructure changes using Google-recommended practices and blueprints
 
@@ -113,6 +150,14 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/deployment-manager/docs/step-by-step-guide
 - https://cloud.google.com/deployment-manager/docs/reference/cloud-foundation-toolkit
 - https://cloud.google.com/deployment-manager/docs/configuration/use-references
+- https://docs.cloud.google.com/architecture/framework
+- https://docs.cloud.google.com/architecture/deployment-archetypes
+- https://docs.cloud.google.com/architecture/blueprints/security-foundations
+- https://docs.cloud.google.com/architecture/scalable-and-resilient-apps
+- https://docs.cloud.google.com/architecture/blueprints/enterprise-application-blueprint
+- https://docs.cloud.google.com/architecture/best-practices-for-running-cost-effective-kubernetes-applications-on-gke
+- https://docs.cloud.google.com/architecture/select-managed-container-runtime-environment
+- https://docs.cloud.google.com/architecture/blueprints/serverless-blueprint
 
 ### Automation with scripting (Python, Go)
 
@@ -124,42 +169,66 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/sdk/docs/properties
 - https://cloud.google.com/sdk/docs/components
 - https://cloud.google.com/sdk/docs/cheatsheet
+- https://docs.cloud.google.com/artifact-registry/docs/repositories/gcloud-defaults
 
 
 ## 1.3 Designing a CI/CD architecture stack in Google Cloud, hybrid, and multi-cloud environments
 
 ### Continuous integration (CI) with Cloud Build
 
+- https://cloud.google.com/learn/what-is-hybrid-cloud
+- https://cloud.google.com/learn/what-is-multicloud
+- https://docs.cloud.google.com/build/docs/overview
+- https://docs.cloud.google.com/build/docs/build-push-docker-image
+- https://docs.cloud.google.com/build/docs/automate-builds
+- https://docs.cloud.google.com/build/docs/private-pools/private-pools-overview
+- https://docs.cloud.google.com/build/docs/deploying-builds/deploy-gke
 - https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
-- https://cloud.google.com/build/docs/deploying-builds/deploy-functions
 
 ### Continuous delivery (CD) with Cloud Deploy, including Kustomize and Skaffold
 
-- https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
-- https://cloud.google.com/build/docs/deploying-builds/deploy-functions
+- https://docs.cloud.google.com/deploy/docs/overview
+- https://docs.cloud.google.com/deploy/docs/architecture
+- https://docs.cloud.google.com/deploy/docs/terminology
+- https://speakerdeck.com/spesnova/introduction-to-kustomize
+- https://kubectl.docs.kubernetes.io/references/kustomize/glossary
+- https://kubectl.docs.kubernetes.io/guides/introduction/kustomize
+- https://docs.cloud.google.com/deploy/docs/using-skaffold
+- https://docs.cloud.google.com/deploy/docs/using-skaffold/getting-started-skaffold
+- https://docs.cloud.google.com/deploy/docs/using-skaffold/managing-manifests
 
 ### Artifact Registry configuration
 
-- https://cloud.google.com/artifact-registry/docs/gcloud-defaults
+- https://docs.cloud.google.com/artifact-registry/docs/overview
+- https://docs.cloud.google.com/artifact-registry/docs/repositories
 - https://cloud.google.com/artifact-registry/docs/docker/quickstart
+- https://docs.cloud.google.com/artifact-registry/docs/java/store-java
 
 ### Widely used third-party tooling (Git, Jenkins, Argo CD, Packer, kpt)
 
-- https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints
+- https://git-scm.com/docs/gittutorial
+- https://www.jenkins.io/doc/pipeline/tour/getting-started
+- https://www.jenkins.io/doc/book/glossary
+- https://argo-cd.readthedocs.io/en/stable
+- https://argo-cd.readthedocs.io/en/stable/core_concepts
+- https://developer.hashicorp.com/packer/docs/intro
+- https://developer.hashicorp.com/packer/docs/intro/why
+- https://developer.hashicorp.com/packer/docs/intro/use-cases
+- https://kpt.dev/guides/rationale
 
 ### Security of CI/CD tooling
 
-- https://cloud.google.com/iam/docs/policies
-- https://cloud.google.com/iam/docs/understanding-roles
-- https://cloud.google.com/iam/docs/best-practices-for-using-and-managing-service-accounts
+- https://docs.cloud.google.com/architecture/design-secure-deployment-pipelines-bp
+- https://docs.cloud.google.com/architecture/business-continuity-with-cicd-on-google-cloud
+- https://docs.cloud.google.com/deploy/docs/securing/iam
 
 
 ## 1.4 Managing multiple environments (staging, production)
 
 ### Managing ephemeral environments
 
-- https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints
-- https://cloud.google.com/config-connector/docs/how-to/getting-started
+- https://docs.cloud.google.com/build/docs/overview
+- https://ephemeralenvironments.io
 
 ### Managing configuration and policy
 
@@ -172,18 +241,29 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Managing Google Kubernetes Engine (GKE) clusters across an enterprise (fleets)
 
-- https://cloud.google.com/kubernetes-engine/docs/how-to/managing-clusters
-- https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-admin-overview
-- https://cloud.google.com/kubernetes-engine/docs/how-to/upgrading-a-cluster
-- https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster
-- https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-autoscaler
-- https://cloud.google.com/kubernetes-engine/docs/how-to/deleting-a-cluster
+- https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs
+- https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/multi-cluster-use-cases
+- https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/fleet-concepts/plan-fleets
+- https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/fleet-concepts/fleet-features
+- https://docs.cloud.google.com/kubernetes-engine/fleet-management/docs/fleet-concepts
+- https://docs.cloud.google.com/kubernetes-engine/docs/fleets-overview
+- https://docs.cloud.google.com/kubernetes-engine/docs/how-to/creating-fleets
 
 ### Safe and secure patching and upgrading practices
 
+- https://docs.cloud.google.com/kubernetes-engine/upgrades
+- https://docs.cloud.google.com/kubernetes-engine/docs/best-practices/upgrading-clusters
+- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/release-channels
+- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/maintenance-windows-and-exclusions
+- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/rollout-sequencing-custom-stages/about-rollout-sequencing
+- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/rollout-sequencing/about-rollout-sequencing
+- https://docs.cloud.google.com/kubernetes-engine/docs/how-to/cluster-disruption-budget
 - https://cloud.google.com/kubernetes-engine/docs/how-to/upgrading-a-cluster
 - https://cloud.google.com/kubernetes-engine/docs/how-to/node-auto-upgrades
 - https://cloud.google.com/kubernetes-engine/docs/how-to/node-auto-repair
+- https://cloud.google.com/kubernetes-engine/docs/how-to/managing-clusters
+- https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-admin-overview
+- https://cloud.google.com/blog/products/management-tools/best-practices-for-os-patch-management-on-compute-engine
 
 
 ## 1.5 Enabling secure cloud development environments
@@ -204,8 +284,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/shell/docs/editor-overview
 
 ### Leveraging AI to assist with development and operations (Gemini Code Assist, Gemini Cloud Assist, Gemini CLI)
-
-- No directly corresponding links were included in the source list.
 
 
 # Section 2. Building and implementing CI/CD pipelines, including continuous testing, for application, infrastructure, and machine learning workloads
@@ -262,14 +340,11 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/error-reporting/docs/managing-errors
 - https://cloud.google.com/logging/docs/view/overview
 - https://cloud.google.com/trace/docs/trace-overview
-- https://cloud.google.com/debugger/docs/using/snapshots
 
 
 ## 2.3 Managing pipeline configuration and secrets
 
 ### Key management (Cloud Key Management Service)
-
-- No direct Cloud KMS link was included in the source list.
 
 ### Configuration and secret management (Secret Manager, Certificate Manager, Parameter Manager, Workload Identity Federation)
 
@@ -342,6 +417,7 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/run/docs/about-instance-autoscaling
 - https://cloud.google.com/run/docs/configuring/max-instances
 - https://cloud.google.com/run/docs/configuring/min-instances
+- https://cloud.google.com/kubernetes-engine/docs/how-to/resizing-a-cluster
 - https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-autoscaler
 - https://cloud.google.com/kubernetes-engine/docs/how-to/horizontal-pod-autoscaling
 - https://cloud.google.com/kubernetes-engine/docs/how-to/vertical-pod-autoscaling
@@ -422,8 +498,6 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Using Gemini Cloud Assist for AI-powered log analysis
 
-- No directly corresponding link was included in the source list.
-
 
 ## 4.3 Managing metrics, dashboards, and alerts
 
@@ -450,7 +524,6 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Leveraging Gemini Cloud Assist for metrics interpretation
 
-- No directly corresponding link was included in the source list.
 
 
 ## 4.4 Capturing and analyzing distributed traces
@@ -472,8 +545,6 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Employing Gemini Cloud Assist for trace analysis
 
-- No directly corresponding link was included in the source list.
-
 
 ## 4.5 Troubleshooting issues
 
@@ -493,8 +564,6 @@ General information for Google Cloud certification is available at [https://clou
 ### Application issues
 
 - https://cloud.google.com/error-reporting/docs/viewing-errors
-- https://cloud.google.com/debugger/docs/using/snapshots
-- https://cloud.google.com/debugger/docs/using/logpoints
 - https://cloud.google.com/trace/docs/finding-traces
 - https://cloud.google.com/trace/docs/viewing-details
 - https://cloud.google.com/profiler/docs/using-profiler
