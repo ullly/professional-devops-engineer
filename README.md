@@ -5,7 +5,6 @@ Notes for the Google Cloud Certified Professional DevOps Engineer exam. These no
 The textbook, Google Cloud for DevOps Engineers by Sandeep Madamanchi, was used to aid in the selection of links.
 
 General information for Google Cloud certification is available at [https://cloud.google.com/certification](https://cloud.google.com/certification). Specific information, and resources, for the Professional DevOps Engineer certification are available at [https://cloud.google.com/certification/cloud-engineer](https://cloud.google.com/learn/certification/cloud-devops-engineer).
-
 # Section 1. Bootstrapping and maintaining a Google Cloud organization
 
 ## 1.1 Designing the overall resource hierarchy for an organization
@@ -102,7 +101,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://docs.cloud.google.com/assured-workloads/docs/data-residency
 - [https://cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources](https://cloud.google.com/compute/docs/regions-zones/global-regional-zonal-resources) 
 
-
 ## 1.2 Managing infrastructure
 
 ### Infrastructure-as-code tooling and managed services (Infrastructure Manager, Cloud Foundation Toolkit, Config Connector, GitOps, Terraform, Helm)
@@ -190,6 +188,7 @@ General information for Google Cloud certification is available at [https://clou
 - https://docs.cloud.google.com/deploy/docs/overview
 - https://docs.cloud.google.com/deploy/docs/architecture
 - https://docs.cloud.google.com/deploy/docs/terminology
+- https://docs.cloud.google.com/deploy/docs/execution-environment
 - https://speakerdeck.com/spesnova/introduction-to-kustomize
 - https://kubectl.docs.kubernetes.io/references/kustomize/glossary
 - https://kubectl.docs.kubernetes.io/guides/introduction/kustomize
@@ -221,7 +220,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://docs.cloud.google.com/architecture/design-secure-deployment-pipelines-bp
 - https://docs.cloud.google.com/architecture/business-continuity-with-cicd-on-google-cloud
 - https://docs.cloud.google.com/deploy/docs/securing/iam
-
 
 ## 1.4 Managing multiple environments (staging, production)
 
@@ -265,13 +263,13 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-admin-overview
 - https://cloud.google.com/blog/products/management-tools/best-practices-for-os-patch-management-on-compute-engine
 
-
 ## 1.5 Enabling secure cloud development environments
 
 ### Configuring and managing cloud development environments (Cloud Workstations, Cloud Shell)
 
 - https://cloud.google.com/shell/docs/editor-overview
 - https://cloud.google.com/shell/docs/running-a-kubernetes-engine-app
+- https://docs.cloud.google.com/workstations/docs/overview
 
 ### Bootstrapping environments with required tooling (custom images, IDE, Cloud SDK)
 
@@ -282,9 +280,18 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/sdk/docs/properties
 - https://cloud.google.com/sdk/docs/components
 - https://cloud.google.com/shell/docs/editor-overview
+- https://docs.cloud.google.com/workstations/docs/preconfigured-ides
+- https://docs.cloud.google.com/workstations/docs/preconfigured-base-images
+- https://docs.cloud.google.com/workstations/docs/ssh-support
 
 ### Leveraging AI to assist with development and operations (Gemini Code Assist, Gemini Cloud Assist, Gemini CLI)
 
+- https://docs.cloud.google.com/gemini/docs/codeassist/overview
+- https://docs.cloud.google.com/gemini/docs/codeassist/set-up-gemini
+- https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli
+- https://geminicli.com/docs/get-started/installation/
+- https://docs.cloud.google.com/cloud-assist/overview
+- https://docs.cloud.google.com/cloud-assist/set-up-gemini
 
 # Section 2. Building and implementing CI/CD pipelines, including continuous testing, for application, infrastructure, and machine learning workloads
 
@@ -292,47 +299,74 @@ General information for Google Cloud certification is available at [https://clou
 
 ### CI/CD of applications and infrastructure
 
+- https://docs.cloud.google.com/build/docs/building/build-containerize-java
 - https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
 - https://cloud.google.com/build/docs/deploying-builds/deploy-functions
-- https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints
-- https://cloud.google.com/deployment-manager/docs/step-by-step-guide
+- https://docs.cloud.google.com/build/docs/deploying-builds/deploy-gke
+- https://docs.cloud.google.com/build/docs/optimize-builds/increase-vcpu-for-builds
+- https://docs.cloud.google.com/build/docs/optimize-builds/speeding-up-builds
+- https://docs.cloud.google.com/build/docs/optimize-builds/building-leaner-containers
+- https://docs.cloud.google.com/docs/terraform/iac-overview
+- https://docs.cloud.google.com/docs/terraform/terraform-overview
+- https://docs.cloud.google.com/docs/terraform/maturity
+- https://docs.cloud.google.com/docs/terraform/resource-management/managing-infrastructure-as-code
+- https://docs.cloud.google.com/docs/terraform/resource-management/store-state
 
 ### Artifact management with Artifact Registry
 
 - https://cloud.google.com/artifact-registry/docs/docker/quickstart
 - https://cloud.google.com/artifact-registry/docs/gcloud-defaults
+- https://docs.cloud.google.com/build/docs/building/store-artifacts-in-artifact-registry
 
 ### Deployment to hybrid and multi-cloud environments (GKE)
 
 - https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters
 - https://cloud.google.com/kubernetes-engine/docs/how-to/managing-clusters
+- https://docs.cloud.google.com/architecture/deployment-archetypes
+- https://docs.cloud.google.com/architecture/deployment-archetypes/zonal
+- https://docs.cloud.google.com/architecture/deployment-archetypes/regional
+- https://docs.cloud.google.com/architecture/deployment-archetypes/multiregional
+- https://docs.cloud.google.com/architecture/deployment-archetypes/global
+- https://docs.cloud.google.com/architecture/deployment-archetypes/hybrid
+- https://docs.cloud.google.com/architecture/deployment-archetypes/multicloud
+- https://docs.cloud.google.com/architecture/deployment-archetypes/comparison
+- https://docs.cloud.google.com/kubernetes-engine/docs/concepts/best-practices-continuous-integration-delivery-kubernetes
 
 ### CI/CD pipeline triggers
 
-- https://cloud.google.com/functions/docs/concepts/events-triggers
-- https://cloud.google.com/functions/docs/tutorials/pubsub
-- https://cloud.google.com/functions/docs/tutorials/storage
-- https://cloud.google.com/run/docs/triggering/pubsub-push
+- https://docs.cloud.google.com/build/docs/triggers
+- https://docs.cloud.google.com/build/docs/repositories
+- https://docs.cloud.google.com/build/docs/automating-builds/create-manage-triggers
+- https://docs.cloud.google.com/build/docs/automating-builds/github/connect-repo-github?generation=2nd-gen
+- https://docs.cloud.google.com/build/docs/automating-builds/github/build-repos-from-github?generation=2nd-gen
+- https://docs.cloud.google.com/build/docs/access-github-from-build
+- https://docs.cloud.google.com/build/docs/automate-builds-pubsub-events?generation=2nd-gen
+- https://docs.cloud.google.com/build/docs/automate-builds-webhook-events?generation=2nd-gen
+- https://docs.cloud.google.com/build/docs/schedule-builds
+- https://docs.cloud.google.com/kubernetes-engine/docs/tutorials/gitops-cloud-build
 
 ### Configuring deployment processes (approval flows)
 
-- https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
-- https://cloud.google.com/build/docs/deploying-builds/deploy-functions
-
+- https://docs.cloud.google.com/docs/terraform/best-practices/version-control
+- https://docs.cloud.google.com/architecture/blueprints/security-foundations/deployment-methodology
+- https://docs.cloud.google.com/deploy/docs/promote-release
 
 ## 2.2 Implementing and managing pipelines
 
 ### Auditing and tracking deployments (Artifact Registry, Cloud Build, Cloud Deploy, Cloud Audit Logs)
 
+- https://docs.cloud.google.com/artifact-registry/docs/audit-logging
+- https://docs.cloud.google.com/build/docs/securing-builds/audit-logs
+- https://docs.cloud.google.com/build/docs/securing-builds/audit-logs
+- https://docs.cloud.google.com/deploy/docs/audit-logs
 - https://cloud.google.com/logging/docs/audit
-- https://cloud.google.com/artifact-registry/docs/docker/quickstart
-- https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
 
 ### Deployment strategies (canary, blue/green, rolling, traffic splitting, feature flags) and defining success metrics based on application or ML pipeline telemetry
 
-- https://cloud.google.com/run/docs/managing/revisions
+- https://docs.cloud.google.com/deploy/docs/deployment-strategies
 - https://cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration
-- https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups
+- https://cloud.google.com/discover/what-is-application-monitoring
+- https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
 
 ### Troubleshooting and mitigating deployment issues
 
@@ -341,39 +375,70 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/logging/docs/view/overview
 - https://cloud.google.com/trace/docs/trace-overview
 
-
 ## 2.3 Managing pipeline configuration and secrets
 
 ### Key management (Cloud Key Management Service)
 
+- https://docs.cloud.google.com/kms/docs/key-management-service
+- https://docs.cloud.google.com/kms/docs/compatible-services
+- https://docs.cloud.google.com/build/docs/securing-builds/use-secrets
+- https://docs.cloud.google.com/build/docs/securing-builds/use-encrypted-credentials
+
 ### Configuration and secret management (Secret Manager, Certificate Manager, Parameter Manager, Workload Identity Federation)
 
-- https://cloud.google.com/iam/docs/configuring-temporary-access
-- https://cloud.google.com/iam/docs/creating-short-lived-service-account-credentials
+- https://docs.cloud.google.com/secret-manager/docs/overview
+- https://docs.cloud.google.com/secret-manager/docs/authentication
+- https://docs.cloud.google.com/secret-manager/docs/create-secret-quickstart
+- https://docs.cloud.google.com/certificate-manager/docs/overview
+- https://docs.cloud.google.com/certificate-manager/docs/core-components
+- https://docs.cloud.google.com/certificate-manager/docs/certificate-selection-logic
+- https://docs.cloud.google.com/certificate-manager/docs/domain-authorization
+- https://docs.cloud.google.com/certificate-manager/docs/deploy-google-managed-lb-auth
+- https://docs.cloud.google.com/certificate-manager/docs/certificate-manager-best-practices
+- https://docs.cloud.google.com/secret-manager/parameter-manager/docs/overview
+- https://docs.cloud.google.com/iam/docs/workload-identities
+- https://docs.cloud.google.com/iam/docs/workload-identity-federation
+- https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines
+- https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation
 
 ### Build versus runtime secret injection
 
-- https://cloud.google.com/iam/docs/best-practices-for-using-and-managing-service-accounts
-- https://cloud.google.com/iam/docs/impersonating-service-accounts
-
+- https://docs.cloud.google.com/deploy/docs/securing/secrets
+- https://docs.docker.com/build/building/secrets/
 
 ## 2.4 Securing the deployment pipeline
 
 ### Artifact Analysis and vulnerability scanning
 
-- https://cloud.google.com/artifact-registry/docs/docker/quickstart
+- https://docs.cloud.google.com/artifact-analysis/docs/artifact-analysis
+- https://docs.cloud.google.com/artifact-analysis/docs/quickstart-scanning-os-automatically
+- https://docs.cloud.google.com/artifact-analysis/docs/quickstart-scanning-java-automatically
+- https://docs.cloud.google.com/artifact-analysis/docs/quickstart-scanning-os-manually
+- https://docs.cloud.google.com/artifact-analysis/docs/quickstart-scanning-java-manually
+- https://docs.cloud.google.com/artifact-analysis/docs/container-scanning-overview
+- https://docs.cloud.google.com/artifact-analysis/docs/package-scanning-overview
+- https://docs.cloud.google.com/artifact-analysis/docs/ods-cloudbuild
 
 ### Software supply chain security (Binary Authorization, Supply-chain Levels for Software Artifacts, SLSA, framework)
 
-- https://cloud.google.com/artifact-registry/docs/docker/quickstart
+- https://docs.cloud.google.com/binary-authorization/docs/overview
+- https://docs.cloud.google.com/binary-authorization/docs/key-concepts
+- https://docs.cloud.google.com/binary-authorization/docs/quickstart-cv
+- https://docs.cloud.google.com/binary-authorization/docs/configure-policy-gke
+- https://docs.cloud.google.com/binary-authorization/docs/deploying-containers
+- https://docs.cloud.google.com/binary-authorization/docs/cv-slsa-check
+- https://docs.cloud.google.com/software-supply-chain-security/docs/overview
+- https://docs.cloud.google.com/software-supply-chain-security/docs/attack-vectors
+- https://docs.cloud.google.com/software-supply-chain-security/docs/safeguard-source
+- https://docs.cloud.google.com/software-supply-chain-security/docs/safeguard-builds
+- https://docs.cloud.google.com/build/docs/securing-builds/generate-validate-build-provenance
 
 ### IAM policies based on environment
 
 - https://cloud.google.com/iam/docs/policies
 - https://cloud.google.com/iam/docs/granting-changing-revoking-access
 - https://cloud.google.com/iam/docs/managing-conditional-role-bindings
-- https://cloud.google.com/resource-manager/docs/organization-policy/overview
-
+- https://cloud.google.com/iam/docs/best-practices-for-using-and-managing-service-accounts
 
 # Section 3. Applying site reliability engineering practices
 
@@ -392,7 +457,6 @@ General information for Google Cloud certification is available at [https://clou
 ### Opportunity cost of risk and reliability (number of “nines”)
 
 - https://cloud.google.com/monitoring/alerts/using-alerting-ui
-
 
 ## 3.2 Managing service lifecycle
 
@@ -423,7 +487,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/kubernetes-engine/docs/how-to/vertical-pod-autoscaling
 - https://cloud.google.com/kubernetes-engine/docs/how-to/multidimensional-pod-autoscaling
 
-
 ## 3.3 Mitigating incident impact on users
 
 ### Draining/redirecting traffic
@@ -443,7 +506,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration
 - https://cloud.google.com/run/docs/managing/revisions
 - https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups
-
 
 # Section 4. Implementing observability practices and troubleshooting issues
 
@@ -478,7 +540,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/monitoring/custom-metrics/creating-metrics
 - https://cloud.google.com/monitoring/custom-metrics/browsing-metrics
 
-
 ## 4.2 Managing and analyzing logs
 
 ### Analyzing logs using the Logs Explorer and the Logging query language
@@ -497,7 +558,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/logging/docs/export/configure_export_v2
 
 ### Using Gemini Cloud Assist for AI-powered log analysis
-
 
 ## 4.3 Managing metrics, dashboards, and alerts
 
@@ -524,8 +584,6 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Leveraging Gemini Cloud Assist for metrics interpretation
 
-
-
 ## 4.4 Capturing and analyzing distributed traces
 
 ### Utilizing tracing frameworks (OpenTelemetry)
@@ -544,7 +602,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/logging/docs/view/overview
 
 ### Employing Gemini Cloud Assist for trace analysis
-
 
 ## 4.5 Troubleshooting issues
 
@@ -585,7 +642,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/profiler/docs/focusing-profiles
 - https://cloud.google.com/profiler/docs/comparing-profiles
 
-
 # Section 5. Optimizing performance and cost
 
 ## 5.1 Collecting performance information in Google Cloud
@@ -601,7 +657,6 @@ General information for Google Cloud certification is available at [https://clou
 
 - https://cloud.google.com/compute/docs/instances/apply-machine-type-recommendations-for-instances
 - https://cloud.google.com/iam/docs/recommender-managing
-
 
 ## 5.2 Implementing FinOps practices for optimizing resource utilization and costs
 
@@ -644,4 +699,3 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/compute/docs/autoscaler/scaling-cpu
 - https://cloud.google.com/compute/docs/autoscaler/scaling-load-balancing
 - https://cloud.google.com/compute/docs/instances/apply-machine-type-recommendations-for-instances
-
