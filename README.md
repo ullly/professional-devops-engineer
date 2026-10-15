@@ -446,30 +446,36 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Defining SLIs (availability, latency), SLOs, and SLAs
 
-- https://cloud.google.com/monitoring/alerts/using-alerting-ui
-- https://cloud.google.com/monitoring/alerts/ui-conditions-ga
-- https://cloud.google.com/monitoring/groups
+- https://sre.google/sre-book/service-level-objectives
 
 ### Error budgets (Cloud Service Mesh definitions)
 
-- https://cloud.google.com/monitoring/alerts/using-alerting-ui
+- https://docs.cloud.google.com/service-mesh/docs/observability/slo-overview
+- https://docs.cloud.google.com/service-mesh/docs/observability/design-slo
+- https://docs.cloud.google.com/service-mesh/docs/observability/create-slo
+- https://docs.cloud.google.com/service-mesh/docs/observability/monitor-slo
+- https://docs.cloud.google.com/service-mesh/docs/observability/alert-policy-slo
 
 ### Opportunity cost of risk and reliability (number of “nines”)
 
-- https://cloud.google.com/monitoring/alerts/using-alerting-ui
+- https://sre.google/sre-book/embracing-risk
 
 ## 3.2 Managing service lifecycle
 
 ### Service management (planning, deployment, maintenance, retirement)
 
-- https://cloud.google.com/compute/docs/instances/create-start-instance
-- https://cloud.google.com/compute/docs/instances/stop-start-instance
-- https://cloud.google.com/compute/docs/instances/deleting-instance
-- https://cloud.google.com/compute/docs/instances/update-instance-properties
+- https://cloud.google.com/learn/what-is-cloud-management
+- https://sre.google/sre-book/release-engineering
+- https://sre.google/sre-book/reliable-product-launches
+- https://sre.google/sre-book/evolving-sre-engagement-model
 
 ### Capacity planning (quotas, limits, reservations, Dynamic Workload Scheduler)
 
-- https://cloud.google.com/compute/quotas
+- https://docs.cloud.google.com/docs/quotas/view-manage
+- https://docs.cloud.google.com/compute/quotas-limits
+- https://docs.cloud.google.com/compute/docs/instances/reservations-overview
+- https://cloud.google.com/blog/products/compute/introducing-dynamic-workload-scheduler
+- https://sre.google/sre-book/handling-overload
 
 ### Autoscaling (managed instance groups, Cloud Run, GKE)
 
@@ -491,21 +497,22 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Draining/redirecting traffic
 
+- https://sre.google/sre-book/emergency-response
+- https://sre.google/sre-book/managing-incidents
 - https://cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration
-- https://cloud.google.com/load-balancing/docs/load-balancing-overview
+- https://docs.cloud.google.com/kubernetes-engine/docs/tutorials/simulate-zone-failure
 
 ### Adding capacity
 
-- https://cloud.google.com/compute/docs/autoscaler/managing-autoscalers
-- https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-autoscaler
 - https://cloud.google.com/run/docs/configuring/max-instances
 - https://cloud.google.com/run/docs/configuring/min-instances
+- https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-autoscaler
 
 ### Rollback strategies
 
 - https://cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration
 - https://cloud.google.com/run/docs/managing/revisions
-- https://cloud.google.com/compute/docs/instance-groups/rolling-out-updates-to-managed-instance-groups
+- https://docs.cloud.google.com/deploy/docs/terminology
 
 # Section 4. Implementing observability practices and troubleshooting issues
 
