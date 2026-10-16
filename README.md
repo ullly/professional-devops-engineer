@@ -524,12 +524,21 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/logging/docs/audit
 - https://cloud.google.com/logging/docs/agent/logging/installation
 - https://cloud.google.com/monitoring/agent/monitoring/installation
+- https://cloud.google.com/learn/what-is-opentelemetry
+- https://docs.cloud.google.com/stackdriver/docs/instrumentation/google-built-otel
+- https://docs.cloud.google.com/logging/docs/audit
+- https://docs.cloud.google.com/logging/docs/audit/services
+- https://docs.cloud.google.com/logging/docs/audit/configure-data-access
+- https://docs.cloud.google.com/vpc/docs/flow-logs
+- https://docs.cloud.google.com/vpc/docs/about-flow-logs-records
+- https://docs.cloud.google.com/vpc/docs/about-traffic-flows
+- https://docs.cloud.google.com/vpc/docs/using-flow-logs
+- https://docs.cloud.google.com/service-mesh/docs/observability-overview
+- https://docs.cloud.google.com/logging/docs/routing/overview
 
 ### Optimizing logs (filtering, sampling, exclusions, cost management, source considerations)
 
-- https://cloud.google.com/logging/docs/view/logs-viewer-interface
-- https://cloud.google.com/logging/docs/export/configure_export_v2
-- https://cloud.google.com/logging/docs/export/using_exported_logs
+- https://docs.cloud.google.com/stackdriver/docs/observability/pricing-optimize-and-monitor
 
 ### Collecting metrics (applications, platforms, networking, Cloud Service Mesh, Google Cloud Managed Service for Prometheus, hybrid/multi-cloud environments)
 
@@ -537,10 +546,16 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/monitoring/custom-metrics/creating-metrics
 - https://cloud.google.com/monitoring/custom-metrics/browsing-metrics
 - https://cloud.google.com/monitoring/custom-metrics/open-census
+- https://docs.cloud.google.com/service-mesh/docs/observability-overview
+- https://docs.cloud.google.com/stackdriver/docs/managed-prometheus
+- https://docs.cloud.google.com/stackdriver/docs/managed-prometheus/setup-managed
+- https://docs.cloud.google.com/stackdriver/docs/managed-prometheus/setup-unmanaged
+- https://docs.cloud.google.com/stackdriver/docs/managed-prometheus/setup-otel
 
 ### Creating synthetic monitors to proactively probe application endpoints and workflows
 
-- https://cloud.google.com/monitoring/alerts/using-alerting-ui
+- https://docs.cloud.google.com/monitoring/uptime-checks/introduction
+- https://docs.cloud.google.com/monitoring/synthetic-monitors/create
 
 ### Creating custom metrics, including log-based metrics
 
@@ -554,6 +569,7 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/logging/docs/view/overview
 - https://cloud.google.com/logging/docs/view/logs-viewer-interface
 - https://cloud.google.com/logging/docs/reference/tools/gcloud-logging
+- https://docs.cloud.google.com/logging/docs/view/logging-query-language
 
 ### Exporting and retaining logs (BigQuery, Pub/Sub, Cloud Storage)
 
@@ -562,9 +578,12 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Handling sensitive data (log processors, redacting personally identifiable information, PII, protected health information, PHI)
 
-- https://cloud.google.com/logging/docs/export/configure_export_v2
+- https://opentelemetry.io/docs/security/handling-sensitive-data
 
 ### Using Gemini Cloud Assist for AI-powered log analysis
+
+- https://docs.cloud.google.com/cloud-assist/overview
+- https://docs.cloud.google.com/cloud-assist/set-up-gemini
 
 ## 4.3 Managing metrics, dashboards, and alerts
 
