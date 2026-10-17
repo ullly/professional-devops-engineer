@@ -584,31 +584,62 @@ General information for Google Cloud certification is available at [https://clou
 
 - https://docs.cloud.google.com/cloud-assist/overview
 - https://docs.cloud.google.com/cloud-assist/set-up-gemini
+- https://docs.cloud.google.com/cloud-assist/chat-panel
 
 ## 4.3 Managing metrics, dashboards, and alerts
 
 ### Analyzing metrics using the Metrics Explorer
 
 - https://cloud.google.com/monitoring/settings
-- https://cloud.google.com/monitoring/custom-metrics/browsing-metrics
+- https://docs.cloud.google.com/monitoring/api/v3/metrics
+- https://docs.cloud.google.com/monitoring/api/v3/metric-model
+- https://docs.cloud.google.com/monitoring/api/v3/aggregation
+- https://docs.cloud.google.com/monitoring/api/v3/metrics-details
+- https://docs.cloud.google.com/monitoring/api/v3/kinds-and-types
+- https://docs.cloud.google.com/monitoring/api/v3/distribution-metrics
+- https://docs.cloud.google.com/monitoring/api/v3/terminology
+- https://docs.cloud.google.com/monitoring/custom-metrics/browsing-metrics
 
 ### Managing dashboards (creating, filtering, sharing, playbooks, PromQL)
 
-- https://cloud.google.com/monitoring/settings
-- https://cloud.google.com/monitoring/groups
+- https://docs.cloud.google.com/monitoring/dashboards
+- https://docs.cloud.google.com/monitoring/charts/predefined-dashboards
+- https://docs.cloud.google.com/monitoring/charts/dashboards
+- https://docs.cloud.google.com/monitoring/dashboards/event-types
+- https://docs.cloud.google.com/monitoring/charts/filter-dashboard
+- https://docs.cloud.google.com/monitoring/dashboards/filter-permanent
+- https://docs.cloud.google.com/monitoring/charts/share-dashboards
+- https://docs.cloud.google.com/monitoring/promql
+- https://cloud.google.com/discover/what-is-prometheus
 
 ### Configuring alerting and alerting policies (SLIs, SLOs, cost control)
 
 - https://cloud.google.com/monitoring/alerts/using-alerting-ui
-- https://cloud.google.com/monitoring/alerts/ui-conditions-ga
 - https://cloud.google.com/monitoring/alerts/using-alerting-api
-- https://cloud.google.com/monitoring/groups
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/overview
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/lb-metrics
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/platform-svc-metrics
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/req-resp-metrics
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/data-storage-metrics
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/data-proc-metrics
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/logs-based-metrics
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/prometheus
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/microservices
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/ui/create-slo
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/alerting-on-budget-burn-rate
+- https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/ui/create-alert
+- https://docs.cloud.google.com/billing/docs/how-to/budgets
 
 ### Integrating with third-party alerting tools (webhooks, PagerDuty, Rootly)
 
-- https://cloud.google.com/monitoring/alerts/using-alerting-api
+- https://docs.cloud.google.com/monitoring/support/notification-options
 
 ### Leveraging Gemini Cloud Assist for metrics interpretation
+
+- https://docs.cloud.google.com/cloud-assist/overview
+- https://docs.cloud.google.com/cloud-assist/overview
+- https://docs.cloud.google.com/cloud-assist/chat-panel
 
 ## 4.4 Capturing and analyzing distributed traces
 
