@@ -2,7 +2,7 @@
 
 Notes for the Google Cloud Certified Professional DevOps Engineer exam. These notes list the syllabus. For each item on the syllabus, there is a link to the relevant Google Cloud documentation. These notes will help prepare for the exam.
 
-The textbook, Google Cloud for DevOps Engineers by Sandeep Madamanchi, was used to aid in the selection of links.
+The textbook, Site Reliability Engineering, by Betsy Beyer, Chris Jones, Jennifer Petoff and Niall Richard Murphy was used to aid in the selection of links.
 
 General information for Google Cloud certification is available at [https://cloud.google.com/certification](https://cloud.google.com/certification). Specific information, and resources, for the Professional DevOps Engineer certification are available at [https://cloud.google.com/certification/cloud-engineer](https://cloud.google.com/learn/certification/cloud-devops-engineer).
 # Section 1. Bootstrapping and maintaining a Google Cloud organization
@@ -432,6 +432,7 @@ General information for Google Cloud certification is available at [https://clou
 - https://docs.cloud.google.com/software-supply-chain-security/docs/safeguard-source
 - https://docs.cloud.google.com/software-supply-chain-security/docs/safeguard-builds
 - https://docs.cloud.google.com/build/docs/securing-builds/generate-validate-build-provenance
+- https://docs.cloud.google.com/architecture/framework/security
 
 ### IAM policies based on environment
 
@@ -447,6 +448,7 @@ General information for Google Cloud certification is available at [https://clou
 ### Defining SLIs (availability, latency), SLOs, and SLAs
 
 - https://sre.google/sre-book/service-level-objectives
+- https://docs.cloud.google.com/architecture/framework/reliability
 
 ### Error budgets (Cloud Service Mesh definitions)
 
@@ -645,59 +647,83 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Utilizing tracing frameworks (OpenTelemetry)
 
+- https://opentelemetry.io/docs/what-is-opentelemetry
+- https://opentelemetry.io/docs/concepts/instrumentation/zero-code
+- https://opentelemetry.io/docs/collector
+- https://opentelemetry.io/docs/platforms/kubernetes/operator
+- https://opentelemetry.io/ecosystem/demo/
 - https://cloud.google.com/trace/docs/trace-overview
 - https://cloud.google.com/trace/docs/quickstart
 
 ### Analyzing trace waterfalls and spans
 
+- https://docs.cloud.google.com/trace/docs/overview
+- https://docs.cloud.google.com/trace/docs/traces-and-spans
+- https://docs.cloud.google.com/trace/docs/trace-context
+- https://docs.cloud.google.com/trace/docs/trace-sampling
+- https://docs.cloud.google.com/trace/docs/trace-app-latency
+- https://docs.cloud.google.com/trace/docs/setup
 - https://cloud.google.com/trace/docs/finding-traces
-- https://cloud.google.com/trace/docs/viewing-details
+- https://docs.cloud.google.com/trace/docs/display-traces-on-dashboards
+- https://docs.cloud.google.com/trace/docs/cross-project-traces
+- https://docs.cloud.google.com/trace/docs/share-trace-or-span
+- https://docs.cloud.google.com/trace/docs/analytics
+- https://docs.cloud.google.com/trace/docs/trace-alerting
+- https://docs.cloud.google.com/trace/docs/storage-overview
 
 ### Correlating trace IDs with structured logs
 
-- https://cloud.google.com/trace/docs/viewing-details
-- https://cloud.google.com/logging/docs/view/overview
+- https://docs.cloud.google.com/trace/docs/trace-log-integration
 
 ### Employing Gemini Cloud Assist for trace analysis
+
+- https://docs.cloud.google.com/cloud-assist/overview
+- https://docs.cloud.google.com/cloud-assist/overview
+- https://docs.cloud.google.com/cloud-assist/chat-panel
 
 ## 4.5 Troubleshooting issues
 
 ### Infrastructure issues
 
-- https://cloud.google.com/compute/docs/instances/view-os-details
-- https://cloud.google.com/compute/docs/instances/get-list
-- https://cloud.google.com/compute/quotas
-- https://cloud.google.com/monitoring/alerts/using-alerting-ui
+- https://sre.google/sre-book/effective-troubleshooting
+- https://docs.cloud.google.com/monitoring/charts/metrics-selector
 
 ### CI/CD pipeline issues
 
-- https://cloud.google.com/logging/docs/audit
-- https://cloud.google.com/error-reporting/docs/viewing-errors
-- https://cloud.google.com/logging/docs/view/overview
+- https://docs.cloud.google.com/build/docs/troubleshooting
+- https://docs.cloud.google.com/deploy/docs/integrating-ci
+- https://docs.cloud.google.com/deploy/docs/integrating
+- https://docs.cloud.google.com/deploy/docs/shared-responsibility
 
 ### Application issues
 
-- https://cloud.google.com/error-reporting/docs/viewing-errors
-- https://cloud.google.com/trace/docs/finding-traces
-- https://cloud.google.com/trace/docs/viewing-details
-- https://cloud.google.com/profiler/docs/using-profiler
+- https://docs.cloud.google.com/error-reporting/docs/viewing-errors
+- https://docs.cloud.google.com/logging/docs/view/logs-explorer-interface
 
 ### Observability issues
 
-- https://cloud.google.com/logging/docs/view/overview
-- https://cloud.google.com/monitoring/settings
-- https://cloud.google.com/trace/docs/trace-overview
-- https://cloud.google.com/profiler/docs/using-profiler
+- https://docs.cloud.google.com/logging/docs/agent/ops-agent/troubleshooting
+- https://docs.cloud.google.com/logging/docs/alerting/troubleshooting
+- https://docs.cloud.google.com/logging/docs/view/troubleshoot
+- https://docs.cloud.google.com/error-reporting/docs/troubleshooting
+- https://docs.cloud.google.com/trace/docs/troubleshooting
+- https://docs.cloud.google.com/profiler/docs/troubleshooting
+- https://docs.cloud.google.com/monitoring/support/troubleshooting
+- https://docs.cloud.google.com/monitoring/docs/troubleshoot-application-monitoring
+- https://docs.cloud.google.com/monitoring/agent/ops-agent/troubleshooting
+- https://docs.cloud.google.com/monitoring/alerts/troubleshooting-alerts
+- https://docs.cloud.google.com/monitoring/charts/troubleshooting-charts
+- https://docs.cloud.google.com/monitoring/uptime-checks/troubleshoot
 
 ### Performance and latency issues
 
-- https://cloud.google.com/trace/docs/finding-traces
-- https://cloud.google.com/trace/docs/viewing-details
 - https://cloud.google.com/profiler/docs/selecting-profiles
 - https://cloud.google.com/profiler/docs/interacting-flame-graph
 - https://cloud.google.com/profiler/docs/filtering-profiles
 - https://cloud.google.com/profiler/docs/focusing-profiles
 - https://cloud.google.com/profiler/docs/comparing-profiles
+- https://cloud.google.com/trace/docs/finding-traces
+- https://cloud.google.com/trace/docs/viewing-details
 
 # Section 5. Optimizing performance and cost
 
@@ -705,54 +731,65 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Application performance monitoring
 
-- https://cloud.google.com/monitoring/docs/quickstart
+- https://cloud.google.com/discover/what-is-application-monitoring
+- https://docs.cloud.google.com/monitoring/docs/monitoring-overview
 - https://cloud.google.com/trace/docs/trace-overview
-- https://cloud.google.com/profiler/docs/using-profiler
-- https://cloud.google.com/error-reporting/docs/quickstart
+- https://docs.cloud.google.com/profiler/docs/about-profiler
+- https://docs.cloud.google.com/error-reporting/docs/grouping-errors
 
 ### Active Assist insights and recommendations
 
-- https://cloud.google.com/compute/docs/instances/apply-machine-type-recommendations-for-instances
-- https://cloud.google.com/iam/docs/recommender-managing
+- https://docs.cloud.google.com/recommender/docs/whatis-activeassist
+- https://docs.cloud.google.com/recommender/docs/understand-cost-recs
+- https://docs.cloud.google.com/recommender/docs/quickstart-active-assist
+- https://docs.cloud.google.com/recommender/docs/quickstart-incontext
 
 ## 5.2 Implementing FinOps practices for optimizing resource utilization and costs
 
 ### Observability costs
 
-- https://cloud.google.com/billing/docs/how-to/budgets
-- https://cloud.google.com/billing/docs/how-to/export-data-bigquery-setup
-- https://cloud.google.com/billing/docs/how-to/export-data-file
+- https://cloud.google.com/products/observability/pricing
+- https://docs.cloud.google.com/stackdriver/docs/observability/pricing-optimize-and-monitor
 
 ### Spot virtual machines (VMs)
 
 - https://cloud.google.com/compute/docs/instances/preemptible
 - https://cloud.google.com/compute/docs/instances/create-use-preemptible
+- https://docs.cloud.google.com/compute/docs/instances/spot
+- https://docs.cloud.google.com/compute/docs/instances/create-use-spot
 
 ### Optimizing resource usage for cost and efficiency
 
-- https://cloud.google.com/compute/docs/instances/apply-machine-type-recommendations-for-instances
-- https://cloud.google.com/compute/docs/autoscaler/scaling-cpu
-- https://cloud.google.com/compute/docs/autoscaler/scaling-load-balancing
-- https://cloud.google.com/run/docs/configuring/max-instances
-- https://cloud.google.com/run/docs/configuring/min-instances
-- https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-autoscaler
+- https://docs.cloud.google.com/architecture/framework
+- https://docs.cloud.google.com/architecture/framework/operational-excellence
+- https://docs.cloud.google.com/architecture/framework/cost-optimization
+- https://docs.cloud.google.com/architecture/framework/cost-optimization/align-cloud-spending-business-value
+- https://docs.cloud.google.com/architecture/framework/cost-optimization/foster-culture-cost-awareness
+- https://docs.cloud.google.com/architecture/framework/cost-optimization/optimize-resource-usage
+- https://docs.cloud.google.com/architecture/framework/cost-optimization/optimize-continuously
+- https://docs.cloud.google.com/architecture/framework/performance-optimization
+- https://docs.cloud.google.com/architecture/framework/performance-optimization/plan-resource-allocation
+- https://docs.cloud.google.com/architecture/framework/performance-optimization/elasticity
+- https://docs.cloud.google.com/architecture/framework/performance-optimization/promote-modular-design
+- https://docs.cloud.google.com/architecture/framework/performance-optimization/continuously-monitor-and-improve-performance
 
 ### Infrastructure cost planning (committed-use discounts, sustained-use discounts, network tiers)
 
 - https://cloud.google.com/products/calculator
-- https://cloud.google.com/compute/docs/sustained-use-discounts
 - https://cloud.google.com/compute/docs/instances/signing-up-committed-use-discounts
+- https://cloud.google.com/compute/docs/sustained-use-discounts
+- https://docs.cloud.google.com/network-tiers/docs/overview
 
 ### Leveraging Google Cloud recommenders (cost, security, performance, manageability, reliability)
 
-- https://cloud.google.com/compute/docs/instances/apply-machine-type-recommendations-for-instances
-- https://cloud.google.com/iam/docs/recommender-managing
+- https://docs.cloud.google.com/recommender/docs/whatis-activeassist
+- https://docs.cloud.google.com/recommender/docs/recommenders
 
 ### Optimizing individual workload costs (GKE, Cloud Run, Compute Engine)
 
-- https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-autoscaler
-- https://cloud.google.com/run/docs/configuring/max-instances
-- https://cloud.google.com/run/docs/configuring/min-instances
-- https://cloud.google.com/compute/docs/autoscaler/scaling-cpu
-- https://cloud.google.com/compute/docs/autoscaler/scaling-load-balancing
-- https://cloud.google.com/compute/docs/instances/apply-machine-type-recommendations-for-instances
+- https://docs.cloud.google.com/kubernetes-engine/docs/best-practices/cost-optimization
+- https://docs.cloud.google.com/run/docs/tips/services-cost-optimization
+- https://docs.cloud.google.com/compute/docs/instances/committed-use-discounts-overview
+- https://docs.cloud.google.com/compute/docs/instances/signing-up-committed-use-discounts
+- https://docs.cloud.google.com/compute/docs/committed-use-discounts/share-resource-cuds-across-projects
+- https://docs.cloud.google.com/compute/docs/sustained-use-discounts
