@@ -13,9 +13,6 @@ General information for Google Cloud certification is available at [https://clou
 
 - https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy
 - https://cloud.google.com/resource-manager/docs/quickstart-organizations
-- https://cloud.google.com/identity/docs/setup
-- https://cloud.google.com/identity/docs/verify-domain
-- https://cloud.google.com/resource-manager/docs/default-access-control
 - https://cloud.google.com/resource-manager/docs/creating-managing-organization
 - https://cloud.google.com/resource-manager/docs/organization-setup
 - https://cloud.google.com/resource-manager/docs/creating-managing-folders
@@ -44,16 +41,15 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Multi-project monitoring and logging
 
+- https://cloud.google.com/stackdriver/docs
 - https://cloud.google.com/monitoring/docs/quickstart
 - https://cloud.google.com/logging/docs/quickstart-sdk
 - https://cloud.google.com/error-reporting/docs/quickstart
 - https://cloud.google.com/trace/docs/quickstart
 - https://cloud.google.com/profiler/docs/quickstart
-- https://cloud.google.com/stackdriver/docs
 - https://docs.cloud.google.com/monitoring/settings
 - https://docs.cloud.google.com/monitoring/settings/metrics-scope-app-enabled-folders
 - https://docs.cloud.google.com/monitoring/settings/multiple-projects
-- https://docs.cloud.google.com/monitoring/settings/manage-api
 - https://docs.cloud.google.com/logging/docs/export/aggregated_sinks_overview
 - https://docs.cloud.google.com/logging/docs/export/aggregated_sinks
 - https://docs.cloud.google.com/logging/docs/central-log-storage
@@ -67,6 +63,7 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/iam/docs/granting-changing-revoking-access
 - https://cloud.google.com/iam/docs/viewing-grantable-roles
 - https://cloud.google.com/iam/docs/creating-custom-roles
+- https://cloud.google.com/iam/docs/managing-conditional-role-bindings
 - https://cloud.google.com/iam/docs/troubleshooting-access
 - https://cloud.google.com/resource-manager/docs/organization-policy/quickstart-constraints
 - https://cloud.google.com/resource-manager/docs/organization-policy/overview
@@ -115,11 +112,6 @@ General information for Google Cloud certification is available at [https://clou
 - https://docs.cloud.google.com/infrastructure-manager/docs/automate-git
 - https://docs.cloud.google.com/infrastructure-manager/docs/troubleshoot-deployments
 - https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints
-- https://cloud.google.com/deployment-manager/docs/reference/cloud-foundation-toolkit
-- https://cloud.google.com/deployment-manager/docs/step-by-step-guide
-- https://cloud.google.com/deployment-manager/docs/deployments/deleting-deployments
-- https://cloud.google.com/deployment-manager/docs/deployments/viewing-manifest
-- https://cloud.google.com/deployment-manager/docs/configuration/use-references
 - https://cloud.google.com/config-connector/docs/how-to/install-upgrade-uninstall
 - https://cloud.google.com/config-connector/docs/how-to/configuring-your-client
 - https://cloud.google.com/config-connector/docs/how-to/getting-started
@@ -144,17 +136,10 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Making infrastructure changes using Google-recommended practices and blueprints
 
-- https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints
-- https://cloud.google.com/deployment-manager/docs/step-by-step-guide
-- https://cloud.google.com/deployment-manager/docs/reference/cloud-foundation-toolkit
-- https://cloud.google.com/deployment-manager/docs/configuration/use-references
-- https://docs.cloud.google.com/architecture/framework
-- https://docs.cloud.google.com/architecture/deployment-archetypes
-- https://docs.cloud.google.com/architecture/blueprints/security-foundations
 - https://docs.cloud.google.com/architecture/scalable-and-resilient-apps
+- https://cloud.google.com/docs/terraform/blueprints/terraform-blueprints
+- https://docs.cloud.google.com/architecture/blueprints/security-foundations
 - https://docs.cloud.google.com/architecture/blueprints/enterprise-application-blueprint
-- https://docs.cloud.google.com/architecture/best-practices-for-running-cost-effective-kubernetes-applications-on-gke
-- https://docs.cloud.google.com/architecture/select-managed-container-runtime-environment
 - https://docs.cloud.google.com/architecture/blueprints/serverless-blueprint
 
 ### Automation with scripting (Python, Go)
@@ -273,6 +258,9 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Bootstrapping environments with required tooling (custom images, IDE, Cloud SDK)
 
+- https://docs.cloud.google.com/workstations/docs/preconfigured-base-images
+- https://docs.cloud.google.com/workstations/docs/preconfigured-ides
+- https://docs.cloud.google.com/workstations/docs/ssh-support
 - https://cloud.google.com/sdk/docs/install
 - https://cloud.google.com/sdk/docs/initializing
 - https://cloud.google.com/sdk/docs/authorizing
@@ -280,18 +268,15 @@ General information for Google Cloud certification is available at [https://clou
 - https://cloud.google.com/sdk/docs/properties
 - https://cloud.google.com/sdk/docs/components
 - https://cloud.google.com/shell/docs/editor-overview
-- https://docs.cloud.google.com/workstations/docs/preconfigured-ides
-- https://docs.cloud.google.com/workstations/docs/preconfigured-base-images
-- https://docs.cloud.google.com/workstations/docs/ssh-support
 
 ### Leveraging AI to assist with development and operations (Gemini Code Assist, Gemini Cloud Assist, Gemini CLI)
 
 - https://docs.cloud.google.com/gemini/docs/codeassist/overview
 - https://docs.cloud.google.com/gemini/docs/codeassist/set-up-gemini
 - https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli
-- https://geminicli.com/docs/get-started/installation/
 - https://docs.cloud.google.com/cloud-assist/overview
 - https://docs.cloud.google.com/cloud-assist/set-up-gemini
+- https://geminicli.com/docs/get-started/installation
 
 # Section 2. Building and implementing CI/CD pipelines, including continuous testing, for application, infrastructure, and machine learning workloads
 
@@ -301,7 +286,6 @@ General information for Google Cloud certification is available at [https://clou
 
 - https://docs.cloud.google.com/build/docs/building/build-containerize-java
 - https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
-- https://cloud.google.com/build/docs/deploying-builds/deploy-functions
 - https://docs.cloud.google.com/build/docs/deploying-builds/deploy-gke
 - https://docs.cloud.google.com/build/docs/optimize-builds/increase-vcpu-for-builds
 - https://docs.cloud.google.com/build/docs/optimize-builds/speeding-up-builds
@@ -343,12 +327,10 @@ General information for Google Cloud certification is available at [https://clou
 - https://docs.cloud.google.com/build/docs/automate-builds-pubsub-events?generation=2nd-gen
 - https://docs.cloud.google.com/build/docs/automate-builds-webhook-events?generation=2nd-gen
 - https://docs.cloud.google.com/build/docs/schedule-builds
-- https://docs.cloud.google.com/kubernetes-engine/docs/tutorials/gitops-cloud-build
 
 ### Configuring deployment processes (approval flows)
 
-- https://docs.cloud.google.com/docs/terraform/best-practices/version-control
-- https://docs.cloud.google.com/architecture/blueprints/security-foundations/deployment-methodology
+- https://docs.cloud.google.com/build/docs/securing-builds/gate-builds-on-approval
 - https://docs.cloud.google.com/deploy/docs/promote-release
 
 ## 2.2 Implementing and managing pipelines
@@ -364,16 +346,16 @@ General information for Google Cloud certification is available at [https://clou
 ### Deployment strategies (canary, blue/green, rolling, traffic splitting, feature flags) and defining success metrics based on application or ML pipeline telemetry
 
 - https://docs.cloud.google.com/deploy/docs/deployment-strategies
-- https://cloud.google.com/run/docs/rollouts-rollbacks-traffic-migration
-- https://cloud.google.com/discover/what-is-application-monitoring
+- https://dora.dev/research
 - https://docs.cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning
 
 ### Troubleshooting and mitigating deployment issues
 
 - https://cloud.google.com/error-reporting/docs/viewing-errors
-- https://cloud.google.com/error-reporting/docs/managing-errors
 - https://cloud.google.com/logging/docs/view/overview
 - https://cloud.google.com/trace/docs/trace-overview
+- https://cloud.google.com/profiler/docs/quickstart
+- https://cloud.google.com/monitoring/docs/quickstart
 
 ## 2.3 Managing pipeline configuration and secrets
 
@@ -404,7 +386,7 @@ General information for Google Cloud certification is available at [https://clou
 ### Build versus runtime secret injection
 
 - https://docs.cloud.google.com/deploy/docs/securing/secrets
-- https://docs.docker.com/build/building/secrets/
+- https://docs.docker.com/build/building/secrets
 
 ## 2.4 Securing the deployment pipeline
 
@@ -437,9 +419,6 @@ General information for Google Cloud certification is available at [https://clou
 ### IAM policies based on environment
 
 - https://cloud.google.com/iam/docs/policies
-- https://cloud.google.com/iam/docs/granting-changing-revoking-access
-- https://cloud.google.com/iam/docs/managing-conditional-role-bindings
-- https://cloud.google.com/iam/docs/best-practices-for-using-and-managing-service-accounts
 
 # Section 3. Applying site reliability engineering practices
 
@@ -523,7 +502,6 @@ General information for Google Cloud certification is available at [https://clou
 ### Collecting and importing logs (Ops Agent, OpenTelemetry, Cloud Audit Logs, VPC Flow Logs, Cloud Service Mesh)
 
 - https://cloud.google.com/logging/docs/quickstart-sdk
-- https://cloud.google.com/logging/docs/audit
 - https://cloud.google.com/logging/docs/agent/logging/installation
 - https://cloud.google.com/monitoring/agent/monitoring/installation
 - https://cloud.google.com/learn/what-is-opentelemetry
@@ -570,7 +548,6 @@ General information for Google Cloud certification is available at [https://clou
 
 - https://cloud.google.com/logging/docs/view/overview
 - https://cloud.google.com/logging/docs/view/logs-viewer-interface
-- https://cloud.google.com/logging/docs/reference/tools/gcloud-logging
 - https://docs.cloud.google.com/logging/docs/view/logging-query-language
 
 ### Exporting and retaining logs (BigQuery, Pub/Sub, Cloud Storage)
@@ -617,7 +594,6 @@ General information for Google Cloud certification is available at [https://clou
 ### Configuring alerting and alerting policies (SLIs, SLOs, cost control)
 
 - https://cloud.google.com/monitoring/alerts/using-alerting-ui
-- https://cloud.google.com/monitoring/alerts/using-alerting-api
 - https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/overview
 - https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/lb-metrics
 - https://docs.cloud.google.com/stackdriver/docs/solutions/slo-monitoring/sli-metrics/platform-svc-metrics
@@ -740,7 +716,6 @@ General information for Google Cloud certification is available at [https://clou
 ### Active Assist insights and recommendations
 
 - https://docs.cloud.google.com/recommender/docs/whatis-activeassist
-- https://docs.cloud.google.com/recommender/docs/understand-cost-recs
 - https://docs.cloud.google.com/recommender/docs/quickstart-active-assist
 - https://docs.cloud.google.com/recommender/docs/quickstart-incontext
 
@@ -753,8 +728,6 @@ General information for Google Cloud certification is available at [https://clou
 
 ### Spot virtual machines (VMs)
 
-- https://cloud.google.com/compute/docs/instances/preemptible
-- https://cloud.google.com/compute/docs/instances/create-use-preemptible
 - https://docs.cloud.google.com/compute/docs/instances/spot
 - https://docs.cloud.google.com/compute/docs/instances/create-use-spot
 
@@ -784,6 +757,7 @@ General information for Google Cloud certification is available at [https://clou
 
 - https://docs.cloud.google.com/recommender/docs/whatis-activeassist
 - https://docs.cloud.google.com/recommender/docs/recommenders
+- https://docs.cloud.google.com/recommender/docs/understand-cost-recs
 
 ### Optimizing individual workload costs (GKE, Cloud Run, Compute Engine)
 
